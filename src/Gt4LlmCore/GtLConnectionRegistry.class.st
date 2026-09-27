@@ -267,6 +267,10 @@ GtLConnectionRegistry >> knownConnectors [
 			providerClass: GtLOpenAiResponsesProvider;
 			label: 'GPT 5.4';
 			model: 'gpt-5.4'.
+		GtLConnection new
+			providerClass: GtLOpenAiResponsesProvider;
+			label: 'GPT 6 Luna';
+			model: 'gpt-6-luna'.
 		},
 		self knownOllamaConnectors
 ]
